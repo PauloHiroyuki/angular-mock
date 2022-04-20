@@ -1,0 +1,31 @@
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Mocks</h4>
+        <p class="card-description">
+         <button class="btn btn-primary" [routerLink]="'adicionar'">Adicionar</button>
+        </p>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Endereco</th>
+                <th scope="col">Ativo</th>
+                <th scope="col">Ações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let mock of mocks">
+                <th>{{ mock.id }}</th>
+                <td>{{ mock.endereco }}</td>
+                <td>{{ mock.ativo }}</td>
+                <td><i class="bi bi-pencil-square"></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  

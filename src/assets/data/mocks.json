@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "endereco": "/teste",
+    "httpStatus": 200,
+    "contentType": "Application/JSON",
+    "charset": "UTF8",
+    "headers": "",
+    "body": "{\"message\": \"ok\"}",
+    "requisicoes": [],
+    "ativo": true,
+    "gravarRequisicao": true
+  }
+]
